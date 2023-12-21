@@ -1,7 +1,7 @@
 use eyre::Context;
+use kidding_with_loco::app::App;
 #[allow(unused_imports)]
 use loco_rs::{cli::playground, prelude::*};
-use kidding_with_loco::app::App;
 
 #[tokio::main]
 async fn main() -> eyre::Result<()> {
